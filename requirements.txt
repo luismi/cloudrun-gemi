@@ -1,2 +1,3 @@
+google-cloud-logging
 streamlit>=1.0
 scrapegraphai

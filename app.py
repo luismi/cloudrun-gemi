@@ -10,7 +10,7 @@ from scrapegraphai.graphs import SmartScraperGraph
 openai_access_token = st.text_input("OpenAI API Key", type="password")
 
 if openai_access_token:
-    model = "gemini-pro"
+    model = "gemini-1.5-flash-latest"
     
     graph_config = {
         "llm": {
